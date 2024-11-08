@@ -1,5 +1,8 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     behaviors {
@@ -60,6 +63,16 @@
 &trans  &kp DOLLAR  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT     &kp LS(LC(N5))        &trans  &trans  &trans      &trans  &trans  &trans  &kp COLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0     &trans
 &trans  &none       &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &none                                 &trans      &trans                  &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
 &trans  &trans      &trans          &trans        &trans                              &trans  &trans  &trans      &trans  &trans  &trans                &trans        &trans        &trans        &trans     &trans
+            >;
+        };
+
+        mod {
+            bindings = <
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                                               &trans           &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &bootloader                                          &bootloader      &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans        &trans       &trans  &trans      &trans  &trans      &rgb_ug RGB_EFF  &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans                             &trans      &trans                               &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans                      &trans       &trans  &trans      &trans  &bl BL_TOG  &rgb_ug RGB_TOG          &bl BL_INC  &bl BL_DEC  &trans  &trans  &trans
             >;
         };
     };
