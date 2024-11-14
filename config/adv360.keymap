@@ -38,11 +38,11 @@
 
         base {
             bindings = <
-&kp EQUAL       &kp N1  &kp N2   &kp N3   &kp N4                &kp N5  &none                                                                       &mo 3      &kp N6  &kp N7                &kp N8       &kp N9   &kp N0          &kp MINUS
-&kp TAB         &kp Q   &kp W    &kp E    &kp R                 &kp T   &none                                                                       &none      &kp Y   &kp U                 &lt 2 I      &kp O    &kp APOSTROPHE  &kp BSLH
-&kp ESC         &kp A   &lt 2 S  &lt 2 D  &lt 2 F               &kp G   &none           &none     &none             &none          &none            &none      &kp H   &kp J                 &kp K        &kp L    &kp P           &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X    &lt 1 C  &lt 1 V               &kp B                             &none             &none                                      &kp N   &lt 1 M               &lt 1 COMMA  &kp DOT  &kp FSLH        &kp RSHFT
-&mo 3           &none   &none    &none    &kp LS(LA(LC(LGUI)))          &kp LEFT_SHIFT  &kp LGUI  &kp LEFT_ALT      &kp BACKSPACE  &mt LCTRL ENTER  &kp SPACE          &kp LS(LC(LA(LGUI)))  &none        &none    &none           &none
+&kp EQUAL       &kp N1  &kp N2   &kp N3   &kp N4                &kp N5  &none                                                                           &mo 3      &kp N6  &kp N7                &kp N8       &kp N9   &kp N0          &kp MINUS
+&kp TAB         &kp Q   &kp W    &kp E    &kp R                 &kp T   &none                                                                           &none      &kp Y   &kp U                 &lt 2 I      &kp O    &kp APOSTROPHE  &kp BSLH
+&kp ESC         &kp A   &lt 2 S  &lt 2 D  &lt 2 F               &kp G   &none           &kp UP_ARROW  &none             &none          &none            &none      &kp H   &kp J                 &kp K        &kp L    &kp P           &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X    &lt 1 C  &lt 1 V               &kp B                                 &none             &none                                      &kp N   &lt 1 M               &lt 1 COMMA  &kp DOT  &kp FSLH        &kp RSHFT
+&mo 3           &none   &none    &none    &kp LS(LA(LC(LGUI)))          &kp LEFT_SHIFT  &kp LGUI      &kp LEFT_ALT      &kp BACKSPACE  &mt LCTRL ENTER  &kp SPACE          &kp LS(LC(LA(LGUI)))  &none        &none    &none           &none
             >;
         };
 
@@ -58,7 +58,7 @@
 
         numbers {
             bindings = <
-&trans  &trans      &trans          &trans        &trans        &trans                &trans                                      &trans  &trans        &trans        &trans        &trans        &trans     &trans
+&trans  &kp F1      &kp F2          &kp F3        &kp F4        &kp F5                &trans                                      &trans  &kp F6        &kp F7        &kp F8        &kp F9        &kp F10    &trans
 &trans  &none       &kp C_BRI_DN    &kp UP_ARROW  &kp C_BRI_UP  &kp LG(LS(NUMBER_4))  &trans                                      &trans  &kp PLUS      &kp NUMBER_7  &kp N8        &kp N9        &kp MINUS  &trans
 &trans  &kp DOLLAR  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT     &kp LS(LC(N5))        &trans  &trans  &trans      &trans  &trans  &trans  &kp COLON     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0     &trans
 &trans  &none       &kp C_MUTE      &kp C_VOL_DN  &kp C_VOL_UP  &none                                 &trans      &trans                  &kp ASTERISK  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &trans
