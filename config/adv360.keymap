@@ -39,10 +39,10 @@
         base {
             bindings = <
 &kp LG(GRAVE)                &kp N1     &kp N2            &kp N3             &kp N4                &kp N5  &none                                                                            &mo 4      &kp N6  &kp N7                &kp N8            &kp N9                &kp N0          &kp BACKSPACE
-&kp TAB                      &kp Q      &kp W             &kp E              &kp R                 &kp T   &none                                                                            &none      &kp Y   &kp U                 &lt 3 I           &kp O                 &kp APOSTROPHE  &none
+&kp TAB                      &kp Q      &kp W             &kp E              &kp R                 &kp T   &none                                                                            &none      &kp Y   &kp U                 &lt 3 I           &kp O                 &kp APOSTROPHE  &kp MINUS
 &mt LS(LA(LC(LGUI))) ESCAPE  &kp A      &lt 2 S           &lt 2 D            &lt 2 F               &kp G   &none           &kp BACKSPACE  &none             &none          &none            &none      &kp H   &kp J                 &kp K             &kp L                 &kp P           &none
 &kp LEFT_SHIFT               &kp Z      &kp X             &lt 1 C            &lt 1 V               &kp B                                  &none             &none                                      &kp N   &lt 1 M               &lt 1 COMMA       &kp DOT               &kp FSLH        &none
-&kp LG(N)                    &kp TILDE  &kp LC(UP_ARROW)  &kp LC(LG(SPACE))  &kp LS(LA(LC(LGUI)))          &kp LEFT_SHIFT  &kp LGUI       &kp LEFT_ALT      &kp BACKSPACE  &mt LCTRL ENTER  &kp SPACE          &kp LS(LC(LA(LGUI)))  &kp LG(NUMBER_0)  &kp LG(LA(NUMBER_0))  &none           &none
+&kp LG(N)                    &kp TILDE  &kp LC(UP_ARROW)  &kp LC(LG(SPACE))  &kp LS(LA(LC(LGUI)))          &kp LEFT_SHIFT  &kp LGUI       &kp LEFT_ALT      &kp BACKSPACE  &mt LCTRL ENTER  &kp SPACE          &kp LS(LC(LA(LGUI)))  &kp LG(NUMBER_0)  &kp LG(LA(NUMBER_0))  &kp UNDERSCORE  &none
             >;
         };
 
