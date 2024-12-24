@@ -48,11 +48,11 @@
 
         symbols {
             bindings = <
-&trans  &trans     &trans          &trans                &trans                 &trans       &trans                                      &trans  &trans        &trans           &trans            &trans            &trans             &trans
-&trans  &kp GRAVE  &kp AT_SIGN     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH     &trans                                      &trans  &kp PLUS      &kp EXCLAMATION  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp MINUS          &trans
-&trans  &kp CARET  &kp BACKSLASH   &kp PERIOD            &kp DOLLAR             &kp PIPE     &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET     &kp EQUAL        &kp LEFT_BRACKET  &kp DOLLAR        &kp RIGHT_BRACKET  &trans
-&trans  &kp TILDE  &kp UNDERSCORE  &kp AMPERSAND         &kp DOUBLE_QUOTES      &kp PERCENT                  &trans      &trans                  &kp ASTERISK  &kp COLON        &kp LESS_THAN     &kp GREATER_THAN  &kp SLASH          &trans
-&trans  &trans     &trans          &trans                &trans                              &trans  &trans  &trans      &trans  &trans  &trans                &trans           &trans            &trans            &trans             &trans
+&trans  &trans            &trans         &trans                &trans                 &trans       &trans                                      &trans  &trans        &trans           &trans          &trans            &trans     &trans
+&trans  &kp GRAVE         &kp AT_SIGN    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH     &trans                                      &trans  &kp PLUS      &kp EXCLAMATION  &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp MINUS  &trans
+&trans  &kp LEFT_BRACKET  &kp BACKSLASH  &kp PERIOD            &kp RIGHT_BRACKET      &kp PERCENT  &trans  &trans  &trans      &trans  &trans  &trans  &kp CARET     &kp EQUAL        &kp UNDER       &kp DOLLAR        &kp PIPE   &trans
+&trans  &none             &none          &kp AMPERSAND         &kp DOUBLE_QUOTES      &none                        &trans      &trans                  &kp ASTERISK  &kp COLON        &kp LESS_THAN   &kp GREATER_THAN  &kp SLASH  &trans
+&trans  &trans            &trans         &trans                &trans                              &trans  &trans  &trans      &trans  &trans  &trans                &trans           &trans          &trans            &trans     &trans
             >;
         };
 
